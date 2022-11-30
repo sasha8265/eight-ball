@@ -1,5 +1,7 @@
+import answers from "./answers"
+
 function getRandom() {
-    return Math.floor(Math.random() * 10) + 1;
-}
+    return Math.floor(Math.random() * answers.length);
+};
 
 export { getRandom };
