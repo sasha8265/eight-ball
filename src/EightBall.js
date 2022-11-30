@@ -25,7 +25,7 @@ const EightBall = (props) => {
     const [color, setColor] = useState("black")
 
     return (
-        <div className="EightBall">
+        <div style={{backgroundColor: `${color}`}} className="EightBall">
             <span onClick={askQuestion} className="EightBall-question">{ question }</span>
         </div>
     )
