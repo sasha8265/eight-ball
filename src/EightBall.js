@@ -4,9 +4,6 @@ import { getRandom } from './helpers'
 import answers from "./answers"
 
 const EightBall = (props) => {
-    // function getRandom() {
-    //     return Math.floor(Math.random() * answers.length);
-    // }
     const askQuestion = () => {
         
         let response = answers[getRandom()];
